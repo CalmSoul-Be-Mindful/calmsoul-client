@@ -24,6 +24,14 @@ const Main = () => {
               >
                 Watch Videos
               </button>
+              <button
+                onClick={() => {
+                  navigate("/videocall");
+                }}
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+              >
+                Join Video Call
+              </button>
               {/* Integrates with section */}
             </div>
             <div className="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">

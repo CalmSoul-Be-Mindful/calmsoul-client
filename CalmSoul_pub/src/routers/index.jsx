@@ -7,6 +7,7 @@ import Main from "../views/Main";
 import Videos from "../views/Videos";
 import WatchVideo from "../views/WatchVideo";
 import Audios from "../views/Audios";
+import VideoCall from "../views/VideoCall";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/main",
         element: <Main />,
+      },
+      {
+        path: "/videocall",
+        element: <VideoCall />,
       },
       {
         path: "/videos",
